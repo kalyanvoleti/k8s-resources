@@ -1,29 +1,28 @@
-# 📁 k8s-resources (main branch)
+# 📁 k8s-resources (Main Branch)
 
-This branch contains stable and working Kubernetes YAML files  
-that reflect my understanding of core concepts.
+This branch contains **stable and fully tested Kubernetes YAML manifests**.  
+The `main` branch is maintained as a collection of **verified examples** covering essential Kubernetes objects such as Pods, Services, ConfigMaps, Secrets, Deployments, StatefulSets, and DaemonSets.
 
 ---
 
 ## 🎯 Purpose
 
-The `main` branch is used to maintain clean, structured, and verified YAML files  
-covering key Kubernetes topics such as Pods, Services, ConfigMaps, Secrets, Deployments, and more.
+The `main` branch serves as a collection of **verified examples**  
+demonstrating core and key Kubernetes concepts.
 
-These files reflect what I’ve learned and successfully tested through hands-on practice.
+All manifests included in this branch have been tested to ensure they function reliably in a Kubernetes environment.
 
 ---
 
 ## 📌 About This Branch
 
-- YAML files here are added **after hands-on testing and improvements.**
-- Files may go through a few updates during learning but are **not frequently edited once finalized.**
-- This branch acts as a **reference point** for successfully practiced and verified examples.
+- Contains only **final and fully working YAML manifests**.  
+- Files in this branch are **rarely modified** after being finalized.  
+- Serves as a **reference point** for clean, stable, and well-organized Kubernetes resources.
 
 ---
 
-## 🔁 Practice & Updates
+## 🔁 Practice & Experimentation
 
-For active learning, testing, or experimentation, refer to the `sandbox` branch.
-That branch is used to explore ideas freely, without affecting the finalized files in the `main` branch.
-
+For iterative practice, testing, or frequent updates, refer to the `sandbox` branch.  
+The `main` branch remains **stable and portfolio-ready**, while the `sandbox` branch is used for ongoing experimentation.
